@@ -78,7 +78,8 @@ gulp.task('default', ['html', 'browserify'], function() {
     notify: false,
     ui: {
       port: 4001
-    }
+    },
+    open: false
   });
 
   gulp.watch("src/index.html", ['html']);
